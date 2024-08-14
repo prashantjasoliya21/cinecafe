@@ -1,0 +1,99 @@
+﻿body {
+  font-family: Arial;
+  margin: 0;
+}
+
+/* Header/Logo Title */
+.header {
+  height:50px;
+  background-color:#000;
+}
+.div1 {
+    height:30px;
+    background-color:#1a1a1a;
+}
+h3 {
+    margin-top:0px;
+    padding-top:15px;
+    padding-left:30px;
+    color:white;
+    outline:none;
+}
+.header a.logo {
+    color:#e6e6e6;
+  font-size: 25px;
+  font-weight: bold;
+  outline:none;
+}
+.header a:hover {
+    color:white;
+  outline:none;
+}
+.header.logo:hover {
+     color:white;
+  outline:none;
+}
+.div1 a:hover {
+    color:white;
+    outline:none;
+}
+@media screen and (max-width: 500px) {
+    .header a {
+        color:white;
+        float: none;
+        outline-offset: 0px;
+        text-align: left;
+    }
+
+    .header-right {
+        color:white;
+        float: none;
+    }
+}
+.header a {
+  float: left;
+  color: #e6e6e6;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 4px;
+}
+.header-right {
+  float: right;
+  color:white;
+}
+.div1 a {
+  float: left;
+  color: #e6e6e6;
+  text-align: center;
+  padding-top:2px;
+  padding-right:12px;
+  margin-right:25px;
+  text-decoration: none;
+  font-size: 14px; 
+  line-height: 25px;
+  border-radius: 4px;
+}
+.div1-right {
+  float: right;
+  color:white;
+}
+.footer {
+    background-color:#000;
+    position:relative;
+    bottom:0;
+    width:100%;
+    left:0;
+}
+ @font-face
+     {
+        font-family: 'Dense'; 
+        src: url('http://localhost:23076/GridView_As_A_MOVIE_ScreenLayout/GridView_As_A_MOVIE_ScreenLayout/font/Roboto-Light.ttf'); 
+     }
+.p {
+    font-size:11px;
+    color:white;
+    font-family:'Dense';
+}

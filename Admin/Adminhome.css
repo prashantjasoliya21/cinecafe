@@ -1,0 +1,28 @@
+﻿body {
+    background-color:#f2f2f2;
+}
+a.lg {
+    color:black;
+  font-size: 18px;
+  font-weight: bold;
+  outline:none;
+}
+a.lg:hover {
+    color:black;
+    outline: none;
+}
+@media screen and (max-width: 500px) {
+    .a {
+        float: none;
+        outline-offset: 0px;
+    }
+}
+.img {
+    outline:none;
+}
+@media screen and (max-width: 500px) {
+    .img{
+        float: none;
+        outline-offset: 0px;
+    }
+}

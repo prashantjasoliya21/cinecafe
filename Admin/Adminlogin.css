@@ -1,0 +1,92 @@
+﻿body { 
+  background-image:url(http://localhost:1065/cinecafe/img/adminlogin.png);
+
+  font-family: 'Century Gothic';
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: left; 
+ 
+}
+.box {
+  background-color: black;
+  opacity:1;
+  border-radius:25px;
+  background-attachment:fixed;
+  background-repeat: no-repeat;
+  width: 550px;
+  height:400px;
+  margin-left: 700px;
+  margin-top:-10px;
+  margin-bottom:10px;
+}
+.div12 {
+    opacity:1;
+}
+.login {
+    color: white;
+    /*opacity:1;*/
+    text-align: center;
+    line-height: 200%;
+}
+.lblclgname,.lblpass,.lbladdress,.lblcity,.lblemail 
+{
+                  opacity:1;
+                    color:white;
+                    margin-left:10px;
+                    margin-top:15px;
+                    line-height:200%;
+                    margin-left:50px;
+
+}
+hr.line1 {
+  border: 1px solid #990000;
+  border-radius: 5px;
+}
+.txtemail,.txtpass,.txtclgname,.txtaddress,.ddlcity
+{
+                   opacity:1;
+                    width:50%;
+                    color:white;
+                    margin-bottom:20px;
+}
+.txtemail, .txtpass,.txtclgname,.txtaddress,.ddlcity 
+{
+    /*opacity:1;*/
+                    border-bottom:1px solid #fff;
+                    outline:none;
+                    height:40px;
+                    color:white;
+                    font-size:16px;
+                    background-color:transparent;
+                    text-align: left;
+                    border-left-style: none;
+                    border-left-color: inherit;
+                    border-left-width: medium;
+                    border-right-style: none;
+                    border-right-color: inherit;
+                    border-right-width: medium;
+                    border-top-style: none;
+                    border-top-color: inherit;
+                    border-top-width: medium;
+}
+.btnsubmit 
+{
+                    opacity:1;
+                    border:none;
+                    outline:none;
+                    height:40px;
+                    width:150px;
+                    font-size:18px;
+                    color:black;
+                   
+                    background-color:dodgerblue;
+                    cursor:pointer;
+                    border-radius:0px;
+                    transition:.3s ease-in-out;
+}
+.btnsubmit:hover 
+{
+    opacity:1;  
+                    background-color:dodgerblue;
+                    color:white;
+}

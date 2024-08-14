@@ -1,0 +1,230 @@
+﻿body {
+    overflow-x: hidden;
+}
+
+.auto-style1 {
+    margin-left: -4px;
+    width: 100%;
+}
+
+.dblur {
+    margin-top: -20px;
+    width: 200%;
+}
+
+.dif {
+    position: relative;
+    filter: blur(100%);
+    -webkit-filter: blur(35px);
+    
+    /* Full height */
+    height: 100%;
+    width: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.dp {
+    margin-top: -900px;
+}
+
+.dp1 {
+    box-shadow:inherit;
+    color:white;
+    font-size:30px;
+    margin-top: -150px;
+    margin-left: 300px;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    margin-top: -50px;
+}
+
+    .container img {
+        width: 100%;
+        height: auto;
+    }
+
+    .container .btn {
+        position: absolute;
+        top: 50%;
+        left: 40%;
+        height: 100%;
+        width: 80%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        background-color: transparent;
+        color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+
+        .container .btn:hover {
+            background-color: transparent;
+            outline: none;
+        }
+
+
+.container1 {
+    position: relative;
+    width: 100%;
+    margin-left: 300px;
+    margin-top: -350px;
+}
+
+    .container1 img {
+        width: 100%;
+        height: auto;
+    }
+
+    .container1 .btn {
+        position: absolute;
+        top: 50%;
+        left: 40%;
+        height: 100%;
+        width: 80%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        background-color: transparent;
+        color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+
+        .container1 .btn:hover {
+            background-color: transparent;
+            outline: none;
+        }
+
+.container2 {
+    position: relative;
+    width: 100%;
+   
+    background-color:black;
+}
+
+    .container2 img {
+        width: 100%;
+        height: auto;
+    }
+
+    .container2 .btn {
+        position: absolute;
+        top: 50%;
+        left: 40%;
+        height: 100%;
+        width: 80%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        background-color:black;
+        color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+
+        .container2 .btn:hover {
+            background-color: transparent;
+            outline: none;
+        }
+.btndate {
+    color:blue;
+}
+
+.container3 {
+   
+    
+   
+}
+
+    .container3 img {
+        width: 100%;
+        height: auto;
+    }
+
+    .container3 .btn {
+      
+       
+       
+        background-color: transparent;
+        color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+
+        .container3 .btn:hover {
+            background-color: transparent;
+            outline: none;
+        }
+        .container4 {
+    position: relative;
+    width: 100%;
+    margin-top: 00px;
+}
+
+    .container4 img {
+        width: 100%;
+        height: auto;
+    }
+
+    .container4 .btn {
+        position: absolute;
+        top: 50%;
+        left: 40%;
+        height: 100%;
+        width: 80%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        background-color: transparent;
+        color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+
+        .container4 .btn:hover {
+            background-color: transparent;
+            outline: none;
+        }
+.btnli {
+    width:60%;
+    border-radius:30px;
+    padding-left:10%;
+    margin-top:300%;
+    margin-left:400%;
+    color:blue;
+    background-color:white;
+}
+    .btnli:hover {
+      
+       opacity:0.6;
+    }
+    .btnli:active {
+        color:blue;
+    }
+    .btnli1 {
+    width:60%;
+    padding-left:10%;
+    margin-top:100%;
+    margin-left:400%;
+    color:blue;
+    background-color:white;
+}
+    .btnli1:hover {
+      
+       opacity:0.6;
+    }
+     .btnli2 {
+    width:100px;
+    margin-top:100%;
+    
+    color:blue;
+    background-color:white;
+}
+    .btnli2:hover {
+      
+       opacity:0.6;
+    }
+
